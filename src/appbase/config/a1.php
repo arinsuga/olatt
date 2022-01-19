@@ -12,13 +12,13 @@ return [
     */
 
     'company' => [
-        'version' => '3.0',
-        'name' => 'hadiprana',
-        'website' => 'http://hadipranadesign.com/',
+        'version' => '1.0',
+        'name' => 'olatt',
+        'website' => 'http://onlineattendace.com/',
         'address' => [
-            'street1' => 'Jl. Pangeran Antasari No. 12',
-            'street2' => 'Cipete Selatan',
-            'city' => 'Jakarta Selatan'
+            'street1' => 'Gedung tinggi lt 9 kav 12',
+            'street2' => 'Jl. Gatot Raya Gatot Kaca',
+            'city' => 'DKI Jakarta'
         ],
         'copyright' => '2020 - 2021',
         'dateformat' => 'd-m-Y'
@@ -145,6 +145,23 @@ return [
             ],
         
         ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | UIUX
+    |--------------------------------------------------------------------------
+    |
+    | Config UIUX
+    | 
+    |
+    */
+    'uiux' => [
+        'blank_image' => 'img/no-image.png',
+        'logo' => env('LOGO', 'demo_logo.png'),
+        'logo_landscape' => env('LOGO_LANDSCAPE', 'demo_logo_landscape.png'),
+        'logo_icon' => env('LOGO_ICON', 'demo_logo_icon.png'),
+        'favicon' => env('FAVICON', 'demo_favicon-32x32.png'),
     ],
 
     /*

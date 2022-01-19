@@ -1,3 +1,4 @@
+config
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -51,8 +52,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ route('home.index') }}" class="brand-link">
-      <img id="logoFull" src="{{ asset('img/logo.jpg') }}" alt="{{ config('a1.company.name','Demo') }}" class="brand-image elevation-3 logo-full">
-      <img id="logoIcon" src="{{ asset('img/favicon-32x32.png') }}" alt="{{ config('a1.company.name','Demo') }}" class="brand-image elevation-3 logo-icon">
+      <img id="logoFull" src="{{ asset('img/'.config('a1.uiux.logo')) }}" alt="{{ config('a1.company.name','Demo') }}" class="brand-image elevation-3 logo-full">
+      <img id="logoIcon" src="{{ asset('img/'.config('a1.uiux.logo_icon')) }}" alt="{{ config('a1.company.name','Demo') }}" class="brand-image elevation-3 logo-icon">
       <span class="brand-text font-weight-light"></span>
     </a>
 

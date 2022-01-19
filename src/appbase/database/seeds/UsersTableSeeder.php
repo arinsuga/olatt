@@ -24,7 +24,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => now(),
             'dept' => null,
             'noabsen' => null,
-            'password' => Hash::make('hadiprana'),
+            'password' => Hash::make('123'),
             'remember_token' => Str::random(10),
             'bo' => true,
         ]);
@@ -37,7 +37,7 @@ class UsersTableSeeder extends Seeder
             'email_verified_at' => now(),
             'dept' => null,
             'noabsen' => null,
-            'password' => Hash::make('hadiprana'),
+            'password' => Hash::make('123'),
             'remember_token' => Str::random(10),
             'bo' => true,
         ]);
